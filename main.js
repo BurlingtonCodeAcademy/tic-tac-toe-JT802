@@ -21,7 +21,7 @@ startButton.addEventListener('click', function() {
         [6, 4, 2]  // diagonal
     ]
 
-const cells = document.querySelectorAll ('.cell');
+const cells = document.querySelectorAll ('.cell'); // .cell or .board?
 startGame();
 
 function startGame() {
