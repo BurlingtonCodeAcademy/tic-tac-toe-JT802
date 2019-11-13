@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <h2>Tic Tac Toe</h2>
+  <h2>OK Tic Tac Toe</h2>
   <div class="board">
     <div id="row-1">
       <div id="cell-0"></div>
@@ -29,9 +29,16 @@
     </div>
   </div>
 
-  <div class="status">
+  <div id="status">
     <button id="start" type="button">Start Game</button>
   </div>
+
+  <div class="endgame">
+    <div class="text"></div>
+  </div>
+  
+  <button onTurn="startGame()">Play Again</button>
+
   <script src="main.js"></script>
 </body>
 
